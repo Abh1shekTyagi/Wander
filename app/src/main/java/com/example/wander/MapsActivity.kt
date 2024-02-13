@@ -60,8 +60,8 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         isMapInitialised = true
         // Add a marker in Sydney and move the camera
         //28°43'58.7"N 77°30'38.0"E HOME
-        val lat = 28.732974805023158
-        val lng = 77.51053057289647
+        val lat = 28.732
+        val lng = 77.51
         val homeLatLng = LatLng(lat, lng)
         val zoomLevel = 20f
         val groundOverlayWidth = 10f
@@ -73,7 +73,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         map.addMarker(
             MarkerOptions()
                 .position(homeLatLng)
-                .title("Lavi Home")
+                .title("Abhishek Home")
         )
 
         map.addGroundOverlay(
